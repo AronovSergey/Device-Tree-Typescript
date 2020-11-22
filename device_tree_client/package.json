@@ -1,0 +1,30 @@
+{
+	"name": "@mcesystems/reflow-example-simple-to-do",
+	"private": true,
+	"version": "4.3.10",
+	"description": "A simple to-do implementation with react display layer",
+	"main": "dist/index",
+	"scripts": {
+		"start": "webpack-dev-server"
+	},
+	"author": "mceSystems",
+	"dependencies": {
+		"@material-ui/core": "^4.11.0",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "^4.0.0-alpha.56",
+		"@mcesystems/reflow": "^4.3.10",
+		"@mcesystems/reflow-react-display-layer": "^4.3.10",
+		"axios": "^0.21.0",
+		"react-toastify": "^6.1.0",
+		"socket.io-client": "^3.0.1"
+	},
+	"devDependencies": {
+		"awesome-typescript-loader": "^5.2.1",
+		"react": "^16.8.6",
+		"source-map-loader": "^0.2.4",
+		"typescript": "^3.5.3",
+		"webpack": "^4.36.1",
+		"webpack-cli": "^3.3.6",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
